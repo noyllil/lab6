@@ -14,11 +14,11 @@ int main()
 	cout << "Enter h:";
 	cin >> h;
 	x = a;
-	while (x <= b)
+	do
 	{
 		y = sin(x), 2 + cos(x), 2;
 		cout << setw(5) << x << '\t' << y << endl;
 		x += h;
-	}
+	}while (x <= b);
 	return 0;
 }
