@@ -7,12 +7,8 @@ using namespace std;
 int main()
 {
 	double x, y, h, a, b;
-	cout << "Enter a:";
-	cin >> a;
-	cout << "Enter b:";
-	cin >> b;
-	cout << "Enter h:";
-	cin >> h;
+	cout << "Enter a,b,h:";
+	cin >> a >> b>> h> >endl;
 	x = a;
 	do
 	{
