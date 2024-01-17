@@ -1,0 +1,29 @@
+#include<iostream>
+#include<iomanip>
+#include<string>
+using namespace std;
+string duplicatteOddAscii(const string& input){
+   string result;
+   
+   for (char ch : input){
+      if (static_cast<int>(ch)% 1 !=0){
+	              result +=ch;
+		      result +=ch;
+		 }
+		 else{
+		      result +=ch;
+		   }
+		  }
+		  return result;
+		  }
+		  
+	int main()
+	{
+	string input= "Abcde, Fgklmn";
+	string output= duplicatteOddAscii(input);
+	
+	cout<<"Input:"<<input<<endl;
+	cout<<"Output"<<output<<endl;
+
+         return 0;
+	}
